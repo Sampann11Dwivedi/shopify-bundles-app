@@ -2,6 +2,9 @@
 
 A Shopify app that lets merchants create product bundles that apply **at checkout**. Using **Shopify Functions** and **Cart Transform**, this app automatically adds add-on products when a target product is purchased.
 
+## Demo Video
+👉 [Click here to watch the demo](https://github.com/USERNAME/REPO/releases/download/v1.0.0/screencast-from-2026-01-10-03-42-37_gMqgzq9P.mp4)
+
 ## ✨ Features
 
 - **Target & Add-on Logic:** Create bundles by selecting a *target product* and an *add-on product*.
