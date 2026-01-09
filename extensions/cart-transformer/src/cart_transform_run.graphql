@@ -1,0 +1,33 @@
+query CartTransformRunInput {
+  cart {
+    lines {
+      id
+      quantity
+      cost {
+        amountPerQuantity {
+          amount
+          currencyCode
+        }
+      }
+      merchandise {
+        ... on ProductVariant {
+          id
+          __typename
+          title
+          title
+          product {
+            title
+            handle
+          }
+        }
+      }
+    }
+  }
+  cartTransform {
+    metafield(key: "functions-configurations",namespace : "$app:cart-transforms",) {
+      value
+      jsonValue
+    }
+  }
+
+}
